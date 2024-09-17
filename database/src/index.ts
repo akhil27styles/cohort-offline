@@ -1,5 +1,6 @@
 import { Client } from 'pg'
-const DATABASE_URL="postgresql://ak27styles:cWHLGr21sYFZ@ep-tight-cell-a51g131m.us-east-2.aws.neon.tech/neondb?sslmode=require"
+const DATABASE_URL="URL"
+//postgresql://ak27styles:cWHLGr21sYFZ@ep-tight-cell-a51g131m.us-east-2.aws.neon.tech/neondb?sslmode=require
 const client = new Client({
   connectionString: DATABASE_URL
 })
